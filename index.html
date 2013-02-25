@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="nav.js">
+
+</script>
+
+<!--Carousel stuff-->
+<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+		<!--<script type="text/javascript">
+			$(function() {
+				$('#carousel').carouFredSel({
+					width: '100%',
+					items: {
+						visible: 3,
+						start: -1
+					},
+					scroll: {
+						items: 1,
+						duration: 1000,
+						timeoutDuration: 3000
+					},
+					prev: '#prev',
+					next: '#next',
+					pagination: {
+						container: '#pager',
+						deviation: 1
+					}
+				});
+			});
+		</script>-->
+
+<!--
+<style>
+html, body {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				min-height: 500px;
+			}
+			body * {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				color: #333;
+				line-height: 22px;
+			}
+			#wrapper {
+				background-color: #fff;
+				width: 100%;
+				height: 450px;
+				
+				overflow: hidden;
+				position: absolute;
+				top:0px;
+				left: 0;
+			}
+			#carousel img {
+				display: block;
+				float: left;
+			}
+			#prev, #next {
+				background-color: rgba(255, 255, 255, 0.7);
+				display: block;
+				height: 450px;
+				width: 50%;
+				top: 0;
+				position: absolute;
+			}
+			#prev:hover, #next:hover {
+				background-color: #fff;
+				background-color: rgba(255, 255, 255, 0.8);
+			}
+			#prev {
+				left: -495px;
+			}
+			#next {
+				right: -495px;
+			}
+			#pager {
+				margin-left: -470px;
+				position: absolute;
+				left: 50%;
+				bottom: 10px;
+			}
+			#pager a {
+				border: 2px solid #fff;
+				border-radius: 10px;
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				margin: 0 5px 0 0;
+			}
+			#pager a:hover {
+				background-color: rgba(255, 255, 255, 0.5);
+			}
+			#pager a span {
+				display: none;
+			}
+			#pager a.selected {
+				background-color: #fff;
+			}
+			
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				border-top: 1px solid #999;
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+			
+			#wrapperfit
+			{
+				position:relative;
+				min-height:500px;
+				background:black;
+				display:none;
+			}
+			#mainwrap
+			{
+			position:relative;
+			top:
+			min-height:600px;
+			background:#666;
+			
+			}
+			
+			
+			
+</style>
+-->
+
+
+
+
+
+	<meta charset="utf-8" />
+	<title>The 1140px Grid &middot; Fluid down to mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--Delete embedded styles, just for example.-->
+	<style type="text/css">
+	
+
+	
+	</style>
+
+</head>
+
+
+<body>
+
+<div id="mainwrap">
+<div class="container top">
+	<div class="row">
+		<div class="twelvecol last">
+			<a class="navigator" href=""><div class="navigate">Home</div></a>
+			<a class="navigator"  href=""><div class="navigate">About</div></a>
+			<a class="navigator"  href=""><div class="navigate">Portfolio</div></a>
+			<a class="navigator"  href=""><div class="navigate">Shop</div></a>
+			<a class="navigator"  href=""><div class="navigate">Contact</div></a>
+		</div>
+	</div>
+</div>
+
+<div class="container car">
+	<div class="row">
+		<div class="twelvecol last">
+			<h1>Carousel goes here</h1>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container icons">
+	<div class="row">
+		<div class="fourcol">
+			<div id="flip1"><img class="iconpic" src="PNG/512/display.png"></div>
+			<div id="flip11">test</div>
+		</div>
+		<div class="fourcol">
+			<div id="flip2"><img class="iconpic" src="PNG/512/pen.png"></div>
+			<div id="flip22">test</div>
+		</div>
+		<div class="fourcol last">
+			<div id="flip3"><img class="iconpic" src="PNG/512/location.png"></div>
+			<div id="flip33">test</div>
+		</div>
+	</div>
+</div>
+
+<div class="container information">
+	<div class="row">
+		<div class="fourcol">
+			<p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui sapien, ullamcorper et auctor eget, consequat et magna. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vel nulla eros. Sed ante tellus, porta id sagittis sed, lobortis eu justo. Nullam molestie, nibh sit amet ullamcorper scelerisque, nunc tortor sagittis nulla, convallis adipiscing enim nisi sed neque. Pellentesque varius nibh eu enim aliquam quis faucibus eros condimentum. Proin ac eros mauris. Pellentesque eu ligula enim, sed hendrerit turpis. Vivamus ante leo, mattis at malesuada et, laoreet quis leo.</p>
+		</div>
+		<div class="fourcol">
+			<p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui sapien, ullamcorper et auctor eget, consequat et magna. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vel nulla eros. Sed ante tellus, porta id sagittis sed, lobortis eu justo. Nullam molestie, nibh sit amet ullamcorper scelerisque, nunc tortor sagittis nulla, convallis adipiscing enim nisi sed neque. Pellentesque varius nibh eu enim aliquam quis faucibus eros condimentum. Proin ac eros mauris. Pellentesque eu ligula enim, sed hendrerit turpis. Vivamus ante leo, mattis at malesuada et, laoreet quis leo.</p>
+		</div>
+		<div class="fourcol last">
+			<p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui sapien, ullamcorper et auctor eget, consequat et magna. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vel nulla eros. Sed ante tellus, porta id sagittis sed, lobortis eu justo. Nullam molestie, nibh sit amet ullamcorper scelerisque, nunc tortor sagittis nulla, convallis adipiscing enim nisi sed neque. Pellentesque varius nibh eu enim aliquam quis faucibus eros condimentum. Proin ac eros mauris. Pellentesque eu ligula enim, sed hendrerit turpis. Vivamus ante leo, mattis at malesuada et, laoreet quis leo.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="threecol">
+			<p>Facebook</p>
+		</div>
+		<div class="threecol">
+			<p>Twitter</p>
+		</div>
+		<div class="threecol">
+			<p>Google Plus</p>
+		</div>
+		<div class="threecol last">
+			<p>Another one!</p>
+		</div>
+	</div>
+</div>
+
+<div class="container footer">
+	<div class="row">
+		<div class="twelvecol last">
+			<p>Site design by <a href="http://tinypages.ie">TinyPages</a></p>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+<script src="nav.js">
+
+</script>
+</body>
+
+</html>
