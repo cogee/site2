@@ -5,7 +5,10 @@
 	body {
 		
 	}
-	
+	.mobilewrapper
+	{
+	display:none;
+	}
 
 /* ============================= */
 /* ! Layout for mobile version   */
@@ -16,7 +19,20 @@
 	body {
 		
 	}
-
+	#wrapper
+	{
+	display:none;
+	}
+	.mobilewrapper
+	{
+	display:block;
+	height:300px;
+	background:black;
+	}
+	.car
+	{
+	display:none;
+	}
 }
 
 
