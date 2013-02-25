@@ -10,7 +10,7 @@
 <!--Carousel stuff-->
 <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
 		<script src="jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
-		<!--<script type="text/javascript">
+		<script type="text/javascript">
 			$(function() {
 				$('#carousel').carouFredSel({
 					width: '100%',
@@ -31,11 +31,11 @@
 					}
 				});
 			});
-		</script>-->
+		</script>
 
-<!--
-<style>
-html, body {
+
+<style type="text/css">
+			html, body {
 				height: 100%;
 				padding: 0;
 				margin: 0;
@@ -43,20 +43,15 @@ html, body {
 			body {
 				min-height: 500px;
 			}
-			body * {
-				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
-				font-size: 14px;
-				color: #333;
-				line-height: 22px;
-			}
+			
 			#wrapper {
-				background-color: #fff;
+				background:#3914af;
 				width: 100%;
 				height: 450px;
 				
 				overflow: hidden;
 				position: absolute;
-				top:0px;
+				top:80px;
 				left: 0;
 			}
 			#carousel img {
@@ -125,27 +120,8 @@ html, body {
 			#donate form {
 				width: 100px;
 			}
-			
-			#wrapperfit
-			{
-				position:relative;
-				min-height:500px;
-				background:black;
-				display:none;
-			}
-			#mainwrap
-			{
-			position:relative;
-			top:
-			min-height:600px;
-			background:#666;
-			
-			}
-			
-			
-			
-</style>
--->
+		</style>
+
 
 
 
@@ -183,11 +159,22 @@ html, body {
 <div id="mainwrap">
 <div class="container top">
 	<div class="row">
-		<div class="twelvecol last">
+		<div class="threecol">
 			<a class="navigator" href=""><div class="navigate">Home</div></a>
+			
+		</div>
+		<div class="threecol">
+			
 			<a class="navigator"  href=""><div class="navigate">About</div></a>
+			
+		</div>
+		<div class="threecol">
+			
 			<a class="navigator"  href=""><div class="navigate">Portfolio</div></a>
-			<a class="navigator"  href=""><div class="navigate">Shop</div></a>
+		
+		</div>
+				<div class="threecol last">
+			
 			<a class="navigator"  href=""><div class="navigate">Contact</div></a>
 		</div>
 	</div>
@@ -196,7 +183,19 @@ html, body {
 <div class="container car">
 	<div class="row">
 		<div class="twelvecol last">
-			<h1>Carousel goes here</h1>
+				<div id="wrapper">
+			<div id="carousel">
+				<img src="img/building1.jpg" alt="building1" width="990" height="450" />
+				<img src="img/building2.jpg" alt="building2" width="990" height="450" />
+				<img src="img/building3.jpg" alt="building3" width="990" height="450" />
+				<img src="img/building4.jpg" alt="building4" width="990" height="450" />
+				<img src="img/building5.jpg" alt="building5" width="990" height="450" />
+				<img src="img/building6.jpg" alt="building6" width="990" height="450" />
+			</div>
+			<a href="#" id="prev" title="Show previous"> </a>
+			<a href="#" id="next" title="Show next"> </a>
+			<div id="pager"></div>
+		</div>
 		</div>
 	</div>
 </div>
@@ -216,7 +215,7 @@ html, body {
 			<div id="flip22">test</div>
 		</div>
 		<div class="fourcol last">
-			<div id="flip3"><img class="iconpic" src="PNG/512/location.png"></div>
+			<div id="flip3"><img class="iconpic" src="PNG/512/camera.png"></div>
 			<div id="flip33">test</div>
 		</div>
 	</div>
@@ -236,7 +235,7 @@ html, body {
 	</div>
 </div>
 
-<div class="container">
+<div class="container social">
 	<div class="row">
 		<div class="threecol">
 			<p>Facebook</p>

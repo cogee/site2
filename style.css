@@ -8,11 +8,10 @@ font-family:verdana;
 
 .navigate
 {
-width:20%;
+width:100%;
 height:60px;
-background:#333;
+background:#3914af;
 color:#fff;
-
 float:left;
 text-align:center;
 padding-top:20px;
@@ -21,7 +20,7 @@ font-size:200%;
 
 .navigate:hover
 {
-width:20%;
+width:100%;
 height:60px;
 background:#999;
 
@@ -29,39 +28,52 @@ background:#999;
 
 .top
 {
-background:#333;
+background:#3914af;
+
 }
 .car
 {
-background:#999;
+background:#3914af;
 text-align:center;
 min-height:350px;
 padding-top:100px;
+
 }
 .icons
 {
-max-height:310px;
-background:#666;
+min-height:310px;
+background:#200772;
 text-align:center;
+padding-top:15px;
+padding-bottom:15px;
+
 }
 .iconpic
 {
-max-height:310px;
+min-height:310px;
+
 }
 .information
 {
-background:#777;
+background:#412c84;
 padding-top:30px;
 padding-bottom:30px;
 font-size:110%;
-color:#fff8dc;
+color:#fff;
+
+}
+.social
+{
+min-height:200px;
+
+background:#200772;
 }
 
 
 
 .footer
 {
-background:#222;
+background:#412c84;
 border-top:3px dashed grey;
 text-align:center;
 color:#fff;
